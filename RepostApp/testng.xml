@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteAbastesimiento">
+  <test name="Realizar Solicitudes">
+    <classes>
+      <class name="com.repostapp.abastecimiento.TestNG.RealizarSolicitud"/>
+    </classes>
+  </test> 
+      <test name="Solicitar Cambio de Lote">
+    <classes>
+      <class name="com.repostapp.abastecimiento.TestNG.SolicitarCambioLote"/>
+    </classes>
+  </test> 
+    <test name="Trabajar solicitud Sacador">
+    <classes>
+      <class name="com.repostapp.abastecimiento.TestNG.TrabajarSolicitudSacador"/>
+    </classes>
+  </test> 
+    <test name="Aprobar cambio de lote">
+    <classes>
+      <class name="com.repostapp.abastecimiento.TestNG.AprobarCambioLote"/>
+    </classes>
+  </test> 
+
+</suite> 
