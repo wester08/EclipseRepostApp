@@ -50,7 +50,7 @@ public class AprobarCambioLote extends Abastecimiento {
 			driver.findElement(BtnAprobar).click();
 			Thread.sleep(2000);
 			driver.findElement(BtnAceptar).click();
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 			
 			
 			
