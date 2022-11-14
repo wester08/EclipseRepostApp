@@ -15,13 +15,13 @@ public class SolicitarCambioLote extends Abastecimiento {
 	public void beforeClass() throws Exception {
 		System.setProperty("webdriver.edge.driver", "src\\main\\resources\\msedgedriver\\msedgedriver.exe");
 		driver = new EdgeDriver();
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 	    driver.get("http://10.1.0.7:9810/"); 
 	}
 
 	@AfterClass
 	public void afterClass() {
-		// driver.quit();
+		driver.quit();
 	}
 
 	@Test
@@ -38,7 +38,7 @@ public class SolicitarCambioLote extends Abastecimiento {
 		driver.findElement(BtnTrabajarSolicitudes).click();
 		driver.findElement(PendienteTrabajar).click();
 		Thread.sleep(3000);
-		driver.findElement(FiltrarSolicitud).sendKeys("CON-0161");
+		driver.findElement(FiltrarSolicitud).sendKeys("CON-0172");
 		Thread.sleep(3000);
 		driver.findElement(BtnVer).click();
 

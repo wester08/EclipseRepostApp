@@ -59,8 +59,10 @@ public class Abastecimiento {
 	By BtnAprobar = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-solicitudes-detalle/nz-card/div[2]/nz-table/nz-spin/div/div/nz-table-inner-scroll/div/table/tbody/tr[2]/td[13]/button");
 	By BtnVerAdmin = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-consulta-solicitudes/nz-card/div[2]/nz-table/nz-spin/div/div/nz-table-inner-default/div/table/tbody/tr[1]/td[3]/button");
 	By BtnAceptar = By.xpath("//*[@id=\"cdk-overlay-1\"]/nz-modal-confirm-container/div/div/div/div/div[2]/button[2]");
+	By EnProgresoAdmin = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-consulta-solicitudes/div/div[2]/nz-card/div/h4");
 	By EnviadoRecepcion = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-consulta-solicitudes/div/div[4]/nz-card/div/h4");
 }
+
 
 	
 	

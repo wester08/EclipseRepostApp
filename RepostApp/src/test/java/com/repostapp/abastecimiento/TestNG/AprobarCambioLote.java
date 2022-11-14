@@ -17,14 +17,14 @@ public class AprobarCambioLote extends Abastecimiento {
 		
 		System.setProperty("webdriver.edge.driver", "src\\main\\resources\\msedgedriver\\msedgedriver.exe");
 		driver = new EdgeDriver();
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 	    driver.get("http://10.1.0.7:9810/"); 
 
 	}
 
 	@AfterClass
 	public void afterClass() {
-		// driver.quit();
+		driver.quit();
 		
 	}
 
@@ -40,9 +40,10 @@ public class AprobarCambioLote extends Abastecimiento {
 			Thread.sleep(2000);	
 			driver.findElement(HomePageLocator).isDisplayed();
 			driver.findElement(ConsultaSolicitud).click();
-			driver.findElement(EnviadoRecepcion).click();
+			Thread.sleep(2000);	
+			driver.findElement(EnProgresoAdmin).click();
 			Thread.sleep(3000);
-			driver.findElement(FiltrarSolicitud).sendKeys("CON-0161");
+			driver.findElement(FiltrarSolicitud).sendKeys("CON-0172");
 			Thread.sleep(3000);
 			driver.findElement(BtnVerAdmin).click();
 			Thread.sleep(2000);

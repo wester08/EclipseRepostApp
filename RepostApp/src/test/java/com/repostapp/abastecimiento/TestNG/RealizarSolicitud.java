@@ -31,7 +31,7 @@ public class RealizarSolicitud extends Abastecimiento {
 		driver.findElement(PasswordLocator).sendKeys("401579");
 		driver.findElement(BtnEntrar).click();
 
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		driver.findElement(HomePageLocator).isDisplayed();
 		driver.findElement(BtnRealizarSolicitud).click();
 		driver.findElement(dropdownList_TipoSolicitud).click();
@@ -84,14 +84,14 @@ public class RealizarSolicitud extends Abastecimiento {
 		driver.findElement(BtnAgregar).isEnabled();
 		// driver.findElement(NumeroSolicitud).getText();
 		// System.out.println(NumeroSolicitud);
-		//driver.findElement(BtnSolicitar).click();
+		driver.findElement(BtnSolicitar).click();
 		Thread.sleep(5000);
 
 	}
 
 	@AfterClass
 	public void afterClass() {
-		// driver.quit();
+		driver.quit();
 	}
 
 }
