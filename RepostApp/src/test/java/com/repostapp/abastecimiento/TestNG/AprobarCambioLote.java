@@ -41,16 +41,16 @@ public class AprobarCambioLote extends Abastecimiento {
 			driver.findElement(HomePageLocator).isDisplayed();
 			driver.findElement(ConsultaSolicitud).click();
 			Thread.sleep(2000);	
-			driver.findElement(EnProgresoAdmin).click();
+			driver.findElement(SolicitudEspera).click();
 			Thread.sleep(3000);
-			driver.findElement(FiltrarSolicitud).sendKeys("CON-0172");
+			driver.findElement(FiltrarSolicitud).sendKeys("CON-0025");
 			Thread.sleep(3000);
 			driver.findElement(BtnVerAdmin).click();
 			Thread.sleep(2000);
 			driver.findElement(BtnAprobar).click();
 			Thread.sleep(2000);
 			driver.findElement(BtnAceptar).click();
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 			
 			
 			

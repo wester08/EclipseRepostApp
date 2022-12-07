@@ -44,9 +44,9 @@ public class Abastecimiento {
 	By Parcial = By.xpath("//*[@id=\"cdk-overlay-2\"]/nz-option-container/div/cdk-virtual-scroll-viewport/div[1]/nz-option-item[2]/div");
 	By TextBoxCantSolicitad = By.xpath("//*[@id=\"cdk-overlay-1\"]/nz-modal-container/div/div/div[2]/div/div[1]/nz-card/div/form/nz-input-group[2]/div/div[2]/nz-input-group/span/nz-input-number/div[2]/input");
 	By TextBoxLoteNuevo = By.xpath("//*[@id=\"cdk-overlay-1\"]/nz-modal-container/div/div/div[2]/div/div[1]/nz-card/div/form/nz-input-group[3]/div/div[2]/nz-input-group/span/nz-select/nz-select-top-control/nz-select-search/input");
-	By LoteNuevo = By.xpath("//*[@id=\"cdk-overlay-3\"]/nz-option-container/div/cdk-virtual-scroll-viewport/div[1]/nz-option-item[4]/div");
+	By LoteNuevo = By.xpath("//div[@class= 'ant-select-item-option-content']");
 	By TextBoxMotivos = By.xpath("//*[@id=\"cdk-overlay-1\"]/nz-modal-container/div/div/div[2]/div/div[1]/nz-card/div/form/nz-input-group[5]/div/div[1]/nz-input-group/span/nz-select/nz-select-top-control/nz-select-search");
-	By Motivo = By.xpath("//*[@id=\"cdk-overlay-4\"]/nz-option-container/div/cdk-virtual-scroll-viewport/div[1]/nz-option-item[4]");
+	By Motivo = By.xpath("//div[@class = 'ant-select-item-option-content']");
 	By BtnSolicitarCL = By.xpath("//*[@id=\"cdk-overlay-1\"]/nz-modal-container/div/div/div[3]/button[3]");
 	By NoSolicitud = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-realizar-solicitud/div/div[1]/div[2]/nz-card/div[2]/span");
 	By BtnCompletar = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-trabajar-solicitud/div[2]/button[3]/span");
@@ -56,7 +56,7 @@ public class Abastecimiento {
 	
 	By ConsultaSolicitud = By.xpath("/html/body/app-root/app-home/nz-layout/nz-sider/div/ul/li[3]/span/a");
 	By SolicitudEspera = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-consulta-solicitudes/div/div[3]/nz-card/div/h4");
-	By BtnAprobar = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-solicitudes-detalle/nz-card/div[2]/nz-table/nz-spin/div/div/nz-table-inner-scroll/div/table/tbody/tr[2]/td[13]/button");
+	By BtnAprobar = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-solicitudes-detalle/nz-card/div[2]/nz-table/nz-spin/div/div/nz-table-inner-scroll/div/table/tbody/tr[3]/td[14]/button");
 	By BtnVerAdmin = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-consulta-solicitudes/nz-card/div[2]/nz-table/nz-spin/div/div/nz-table-inner-default/div/table/tbody/tr[1]/td[3]/button");
 	By BtnAceptar = By.xpath("//*[@id=\"cdk-overlay-1\"]/nz-modal-confirm-container/div/div/div/div/div[2]/button[2]");
 	By EnProgresoAdmin = By.xpath("/html/body/app-root/app-home/nz-layout/nz-layout/nz-content/div/app-consulta-solicitudes/div/div[2]/nz-card/div/h4");

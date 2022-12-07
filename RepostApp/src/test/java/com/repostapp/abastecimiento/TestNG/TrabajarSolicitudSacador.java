@@ -30,8 +30,8 @@ public class TrabajarSolicitudSacador extends Abastecimiento {
 		Thread.sleep(2000);
 	
 	    driver.findElement(RepostAppPageLocator).isDisplayed(); {
-		driver.findElement(UserNameLocator).sendKeys("400001");
-		driver.findElement(PasswordLocator).sendKeys("400001");
+		driver.findElement(UserNameLocator).sendKeys("400003");
+		driver.findElement(PasswordLocator).sendKeys("400003");
 		driver.findElement(BtnEntrar).click();
 	
 		Thread.sleep(2000);	
@@ -39,7 +39,7 @@ public class TrabajarSolicitudSacador extends Abastecimiento {
 		driver.findElement(BtnTrabajarSolicitudes).click();
 		driver.findElement(PendienteTrabajar).click();
 		Thread.sleep(3000);
-		driver.findElement(FiltrarSolicitud).sendKeys("CON-0173");
+		driver.findElement(FiltrarSolicitud).sendKeys("CON-0024");
 		Thread.sleep(3000);
 		driver.findElement(BtnVer).click();
 
